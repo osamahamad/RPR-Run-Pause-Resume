@@ -1,4 +1,4 @@
-INRODUCTION:
+INTRODUCTION:
 
 When pen-testing login credentials it is often useful to be able to set a pause time after a specified number of test requests to avoid having the target site block the attack. Many websites implement network defences against such repeated login requests to prevent misuse and this often comes into play after the user has tried a set number of login attempts (eg 10 or 20 etc). The user, after a set period of not making any further requests (usually a few minutes to one hour), is often then permitted by the application to resume making credential-guessing requests.
 
